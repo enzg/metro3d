@@ -1,0 +1,39 @@
+@import 'antd/dist/antd.dark.css';
+@import 'antd/dist/antd.compact.css';
+
+.ant-card-contain-grid::-webkit-scrollbar {
+  width: 0 !important;
+}
+.ant-card-contain-grid {
+  -ms-overflow-style: none;
+}
+.ant-card-contain-grid {
+  overflow: -moz-scrollbars-none;
+}
+.ant-btn {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #f2f2f2;
+}
+.ant-btn:hover,
+.ant-btn:focus,
+.ant-btn:active {
+  color: black;
+  font-weight: 600;
+  background-color: rgba(220, 220, 220, 0.85);
+  border: rgba(220, 220, 220, 0.85) 1px solid;
+}
+.top-hud,
+.bottom-hud {
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  gap: 0.5vw;
+}
+.top-hud {
+  top: 1.5vh;
+  left: 0.5vw;
+}
+.bottom-hud {
+  bottom: 0;
+  right: 0;
+}
